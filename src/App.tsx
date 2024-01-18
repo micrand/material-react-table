@@ -15,23 +15,23 @@ import { data, type Person } from './makeData';
 const columns: MRT_ColumnDef<Person>[] = [
   {
     accessorKey: 'firstName',
-    header: 'First Name',
+    header: 'Prenom',
   },
   {
     accessorKey: 'lastName',
-    header: 'Last Name',
+    header: 'Nom',
   },
   {
-    accessorKey: 'city',
-    header: 'City',
+    accessorKey: 'address',
+    header: 'Address',
   },
   {
     accessorKey: 'state',
-    header: 'State',
+    header: 'Pays',
   },
   {
-    accessorKey: 'salary',
-    header: 'Salary',
+    accessorKey: 'telephone',
+    header: 'Téléphone',
   },
 ];
 //end
