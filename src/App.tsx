@@ -165,6 +165,7 @@ const App = () => {
       onGlobalFilterChange={setGlobalFilter}
       onShowColumnFiltersChange={setShowColumnFilters}
       onShowGlobalFilterChange={setShowGlobalFilter}
+      onShowGlobalFilter={true}
       onSortingChange={setSorting}
       state={{
         columnFilters,
